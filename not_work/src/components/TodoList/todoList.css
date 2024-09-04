@@ -1,0 +1,43 @@
+button{
+    color: red;
+}
+.todo-item-right button {
+    padding: 6px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+    
+  }
+  
+  .todo-item-right button:hover {
+    background-color: #d0d0d0;
+  }
+  
+.todo-list{
+    width: 700px;
+    margin: 50px auto;
+}
+.todo-list {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  @media (max-width: 768px) {
+    .todo-list {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .todo-list {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  

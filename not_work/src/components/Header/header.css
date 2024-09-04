@@ -1,0 +1,28 @@
+.header{
+    background-color: #5e00b8;
+    padding: 20px;
+}
+
+.header-logo{
+    color: white;
+    text-align: center;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .header-logo {
+    font-size: 24px;
+  }
+  
+  @media (max-width: 480px) {
+    .header-logo {
+      font-size: 20px;
+    }
+  }
+  
